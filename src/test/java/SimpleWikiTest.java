@@ -10,6 +10,8 @@ public class SimpleWikiTest {
         //sleep(10_000);
         $("body").shouldHave(text("WebDriver"));
     }
+
+    // Этот тест должен упасть
     @Test
     void test02WordSelenide() {
         open("https://ru.wikipedia.org/wiki/Selenium");
